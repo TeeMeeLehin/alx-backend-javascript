@@ -4,6 +4,7 @@ const assert = require("assert");
 describe("calculateNumber test", function() {
   it("checks equality", function() {
     assert.equal(calculateNumber(6, 7), 13);
-    assert.equal(calculateNumber(4.2, 5), 10);
+    assert.equal(calculateNumber(4.2, 5), 9);
+    assert.equal(calculateNumber(4.2, 5.7), 10);
   });
 });
